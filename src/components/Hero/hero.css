@@ -1,0 +1,54 @@
+.mainStack {
+  background-image: url("../../images/bg-pattern-desktop.svg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.context,
+.parafont {
+  text-align: start;
+}
+.wefont,
+.csfont {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3.5rem;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+}
+.wefont {
+  font-weight: 300;
+  color: hsl(0, 36%, 70%);
+}
+.csfont {
+  font-weight: 600;
+}
+
+.parafont {
+  font-family: "Josefin Sans", sans-serif;
+  color: hsl(0, 36%, 70%);
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 430px) {
+  .context,
+  .parafont {
+    text-align: center;
+  }
+  .wefont,
+  .csfont {
+    font-size: 2.7rem;
+    letter-spacing: 7px;
+  }
+}
+
+@media only screen and (max-width: 282px) {
+  .context,
+  .parafont {
+    text-align: center;
+  }
+  .wefont,
+  .csfont {
+    font-size: 2.7rem;
+    letter-spacing: 2px;
+  }
+}
