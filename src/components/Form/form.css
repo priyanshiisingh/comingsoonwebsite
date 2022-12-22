@@ -1,0 +1,40 @@
+.inputgrp {
+  border-radius: 100px !important;
+  padding: 25px;
+  border-color: hsl(0, 80%, 86%) !important;
+  box-shadow: none !important;
+}
+
+::placeholder {
+  font-weight: 300;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 2px;
+  color: hsl(0, 36%, 70%) !important;
+}
+
+.iconbtn {
+  height: 100% !important;
+  border-radius: 25px !important;
+  width: 100%;
+  color: white !important;
+  font-size: 2rem !important;
+  background-image: linear-gradient(
+    135deg,
+    hsl(0, 80%, 86%),
+    hsl(0, 74%, 74%)
+  ) !important;
+  box-shadow: 0px 5px 10px 1px hsl(0, 36%, 70%);
+}
+
+.iconbtn:active {
+  background-image: linear-gradient(
+    135deg,
+    hsl(0, 90%, 96%),
+    hsl(0, 84%, 84%)
+  ) !important;
+  box-shadow: 5px 12px 17px 2px hsl(0, 36%, 70%);
+}
+
+.iconre {
+  height: 100% !important;
+}
