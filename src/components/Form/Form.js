@@ -14,7 +14,7 @@ const YOUR_TEMPLATE_ID = process.env.REACT_APP_YOUR_TEMPLATE_ID;
 const YOUR_PUBLIC_KEY = process.env.REACT_APP_YOUR_PUBLIC_KEY;
 // `${process.env.REACT_APP_BACKEND}api/user-emails`
 
-export default function Navbar() {
+export default function Form() {
   const form = useRef();
   const [newEmail, setNewEmail] = useState("");
 
